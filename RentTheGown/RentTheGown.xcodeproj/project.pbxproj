@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		214458581B160CD8006B9237 /* RENTButtonStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 214458571B160CD8006B9237 /* RENTButtonStyle.m */; };
+		2144585B1B160EEF006B9237 /* RENTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2144585A1B160EEF006B9237 /* RENTButton.m */; };
+		21CF30531A915F0C00BC2181 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CF30521A915F0C00BC2181 /* main.m */; };
+		21CF30561A915F0C00BC2181 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CF30551A915F0C00BC2181 /* AppDelegate.m */; };
+		21CF30591A915F0C00BC2181 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CF30581A915F0C00BC2181 /* ViewController.m */; };
+		21CF305C1A915F0C00BC2181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21CF305A1A915F0C00BC2181 /* Main.storyboard */; };
+		21CF305E1A915F0C00BC2181 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21CF305D1A915F0C00BC2181 /* Images.xcassets */; };
+		21CF30611A915F0C00BC2181 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21CF305F1A915F0C00BC2181 /* LaunchScreen.xib */; };
+		21CF306D1A915F0C00BC2181 /* RentTheGownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CF306C1A915F0C00BC2181 /* RentTheGownTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21CF30671A915F0C00BC2181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21CF30451A915F0C00BC2181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21CF304C1A915F0C00BC2181;
+			remoteInfo = RentTheGown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		21CF30D61A929CE500BC2181 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		214458561B160CD8006B9237 /* RENTButtonStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RENTButtonStyle.h; sourceTree = "<group>"; };
+		214458571B160CD8006B9237 /* RENTButtonStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RENTButtonStyle.m; sourceTree = "<group>"; };
+		214458591B160EEF006B9237 /* RENTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RENTButton.h; sourceTree = "<group>"; };
+		2144585A1B160EEF006B9237 /* RENTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RENTButton.m; sourceTree = "<group>"; };
+		21CF304D1A915F0C00BC2181 /* RentTheGown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentTheGown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21CF30511A915F0C00BC2181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21CF30521A915F0C00BC2181 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21CF30541A915F0C00BC2181 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21CF30551A915F0C00BC2181 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21CF30571A915F0C00BC2181 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21CF30581A915F0C00BC2181 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21CF305B1A915F0C00BC2181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21CF305D1A915F0C00BC2181 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21CF30601A915F0C00BC2181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		21CF30661A915F0C00BC2181 /* RentTheGownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RentTheGownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21CF306B1A915F0C00BC2181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21CF306C1A915F0C00BC2181 /* RentTheGownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RentTheGownTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21CF304A1A915F0C00BC2181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21CF30631A915F0C00BC2181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		214458551B160B0A006B9237 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				214458561B160CD8006B9237 /* RENTButtonStyle.h */,
+				214458571B160CD8006B9237 /* RENTButtonStyle.m */,
+				214458591B160EEF006B9237 /* RENTButton.h */,
+				2144585A1B160EEF006B9237 /* RENTButton.m */,
+			);
+			name = Button;
+			sourceTree = "<group>";
+		};
+		21CF30441A915F0C00BC2181 = {
+			isa = PBXGroup;
+			children = (
+				21CF304F1A915F0C00BC2181 /* RentTheGown */,
+				21CF30691A915F0C00BC2181 /* RentTheGownTests */,
+				21CF304E1A915F0C00BC2181 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21CF304E1A915F0C00BC2181 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21CF304D1A915F0C00BC2181 /* RentTheGown.app */,
+				21CF30661A915F0C00BC2181 /* RentTheGownTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21CF304F1A915F0C00BC2181 /* RentTheGown */ = {
+			isa = PBXGroup;
+			children = (
+				214458551B160B0A006B9237 /* Button */,
+				21CF30541A915F0C00BC2181 /* AppDelegate.h */,
+				21CF30551A915F0C00BC2181 /* AppDelegate.m */,
+				21CF30571A915F0C00BC2181 /* ViewController.h */,
+				21CF30581A915F0C00BC2181 /* ViewController.m */,
+				21CF305A1A915F0C00BC2181 /* Main.storyboard */,
+				21CF30501A915F0C00BC2181 /* Supporting Files */,
+			);
+			path = RentTheGown;
+			sourceTree = "<group>";
+		};
+		21CF30501A915F0C00BC2181 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21CF305F1A915F0C00BC2181 /* LaunchScreen.xib */,
+				21CF305D1A915F0C00BC2181 /* Images.xcassets */,
+				21CF30511A915F0C00BC2181 /* Info.plist */,
+				21CF30521A915F0C00BC2181 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21CF30691A915F0C00BC2181 /* RentTheGownTests */ = {
+			isa = PBXGroup;
+			children = (
+				21CF306C1A915F0C00BC2181 /* RentTheGownTests.m */,
+				21CF306A1A915F0C00BC2181 /* Supporting Files */,
+			);
+			path = RentTheGownTests;
+			sourceTree = "<group>";
+		};
+		21CF306A1A915F0C00BC2181 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21CF306B1A915F0C00BC2181 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21CF304C1A915F0C00BC2181 /* RentTheGown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21CF30701A915F0C00BC2181 /* Build configuration list for PBXNativeTarget "RentTheGown" */;
+			buildPhases = (
+				21CF30491A915F0C00BC2181 /* Sources */,
+				21CF304A1A915F0C00BC2181 /* Frameworks */,
+				21CF304B1A915F0C00BC2181 /* Resources */,
+				21CF30D61A929CE500BC2181 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RentTheGown;
+			productName = RentTheGown;
+			productReference = 21CF304D1A915F0C00BC2181 /* RentTheGown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21CF30651A915F0C00BC2181 /* RentTheGownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21CF30731A915F0C00BC2181 /* Build configuration list for PBXNativeTarget "RentTheGownTests" */;
+			buildPhases = (
+				21CF30621A915F0C00BC2181 /* Sources */,
+				21CF30631A915F0C00BC2181 /* Frameworks */,
+				21CF30641A915F0C00BC2181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21CF30681A915F0C00BC2181 /* PBXTargetDependency */,
+			);
+			name = RentTheGownTests;
+			productName = RentTheGownTests;
+			productReference = 21CF30661A915F0C00BC2181 /* RentTheGownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21CF30451A915F0C00BC2181 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Rent The Runway";
+				TargetAttributes = {
+					21CF304C1A915F0C00BC2181 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = D3949Y3U43;
+					};
+					21CF30651A915F0C00BC2181 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 21CF304C1A915F0C00BC2181;
+					};
+				};
+			};
+			buildConfigurationList = 21CF30481A915F0C00BC2181 /* Build configuration list for PBXProject "RentTheGown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21CF30441A915F0C00BC2181;
+			productRefGroup = 21CF304E1A915F0C00BC2181 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21CF304C1A915F0C00BC2181 /* RentTheGown */,
+				21CF30651A915F0C00BC2181 /* RentTheGownTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21CF304B1A915F0C00BC2181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CF305C1A915F0C00BC2181 /* Main.storyboard in Resources */,
+				21CF30611A915F0C00BC2181 /* LaunchScreen.xib in Resources */,
+				21CF305E1A915F0C00BC2181 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21CF30641A915F0C00BC2181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21CF30491A915F0C00BC2181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2144585B1B160EEF006B9237 /* RENTButton.m in Sources */,
+				21CF30591A915F0C00BC2181 /* ViewController.m in Sources */,
+				21CF30561A915F0C00BC2181 /* AppDelegate.m in Sources */,
+				214458581B160CD8006B9237 /* RENTButtonStyle.m in Sources */,
+				21CF30531A915F0C00BC2181 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21CF30621A915F0C00BC2181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CF306D1A915F0C00BC2181 /* RentTheGownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21CF30681A915F0C00BC2181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21CF304C1A915F0C00BC2181 /* RentTheGown */;
+			targetProxy = 21CF30671A915F0C00BC2181 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21CF305A1A915F0C00BC2181 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21CF305B1A915F0C00BC2181 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21CF305F1A915F0C00BC2181 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21CF30601A915F0C00BC2181 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21CF306F1A915F0C00BC2181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21CF30721A915F0C00BC2181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = RentTheGown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21CF30751A915F0C00BC2181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RentTheGownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RentTheGown.app/RentTheGown";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21CF30481A915F0C00BC2181 /* Build configuration list for PBXProject "RentTheGown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21CF306F1A915F0C00BC2181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21CF30701A915F0C00BC2181 /* Build configuration list for PBXNativeTarget "RentTheGown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21CF30721A915F0C00BC2181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21CF30731A915F0C00BC2181 /* Build configuration list for PBXNativeTarget "RentTheGownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21CF30751A915F0C00BC2181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21CF30451A915F0C00BC2181 /* Project object */;
+}
