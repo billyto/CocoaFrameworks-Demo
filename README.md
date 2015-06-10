@@ -1,7 +1,12 @@
 # CocoaFrameworks-Demo
-Demo for Cocoa Frameworks talk.
+Demo for [Brew your own Cocoa (Framework)](http://altconf.com/schedule/) at AltConf2015
 
-The two projects would share a framework "RentKit"
+
+The two projects "Rent The Gown" and "Rent A Corgi" will share a framework "RentKit"
+
+* **master Branch** includes the clean projects, wihtout sharing a dynamic framework.
+* **rentkit Branch** shows both Applications using "RentKit".
+
 
 ## Bundles
 * [Apple Documentation](https://developer.apple.com/library/prerelease/ios/documentation/CoreFoundation/Conceptual/CFBundles/Introduction/Introduction.html#//apple_ref/doc/uid/10000123i-CH1-SW1)
