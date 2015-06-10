@@ -4,8 +4,8 @@ Demo for [Brew your own Cocoa (Framework)](http://altconf.com/schedule/) at AltC
 
 The two projects "Rent The Gown" and "Rent A Corgi" will share a framework "RentKit"
 
-* **master Branch** includes the clean projects, wihtout sharing a dynamic framework.
-* **rentkit Branch** shows both Applications using "RentKit".
+* **Master branch** includes the clean projects, wihtout sharing a dynamic framework.
+* **Rentkit branch** shows both Applications using "RentKit".
 
 
 ## Bundles
