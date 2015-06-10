@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210F64571B288B6800D5382C /* RentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210F64561B288B6800D5382C /* RentKit.framework */; };
+		210F64581B288B6800D5382C /* RentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210F64561B288B6800D5382C /* RentKit.framework */; };
+		210F645A1B288D8200D5382C /* RentKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 210F64561B288B6800D5382C /* RentKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		212453C91B0F5D1A001B69CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212453C81B0F5D1A001B69CA /* AppDelegate.swift */; };
 		212453CB1B0F5D1A001B69CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212453CA1B0F5D1A001B69CA /* ViewController.swift */; };
 		212453CE1B0F5D1A001B69CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212453CC1B0F5D1A001B69CA /* Main.storyboard */; };
@@ -25,7 +28,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		210F64591B288C0900D5382C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				210F645A1B288D8200D5382C /* RentKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		210F64561B288B6800D5382C /* RentKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RentKit.framework; sourceTree = "<group>"; };
 		212453C31B0F5D1A001B69CA /* RentACorgi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentACorgi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		212453C71B0F5D1A001B69CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		212453C81B0F5D1A001B69CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210F64571B288B6800D5382C /* RentKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210F64581B288B6800D5382C /* RentKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +96,7 @@
 		212453C51B0F5D1A001B69CA /* RentACorgi */ = {
 			isa = PBXGroup;
 			children = (
+				210F64561B288B6800D5382C /* RentKit.framework */,
 				212453C81B0F5D1A001B69CA /* AppDelegate.swift */,
 				212453CA1B0F5D1A001B69CA /* ViewController.swift */,
 				212453CC1B0F5D1A001B69CA /* Main.storyboard */,
@@ -122,6 +142,7 @@
 				212453BF1B0F5D1A001B69CA /* Sources */,
 				212453C01B0F5D1A001B69CA /* Frameworks */,
 				212453C11B0F5D1A001B69CA /* Resources */,
+				210F64591B288C0900D5382C /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -340,6 +361,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RentACorgi",
+				);
 				INFOPLIST_FILE = RentACorgi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +375,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RentACorgi",
+				);
 				INFOPLIST_FILE = RentACorgi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,6 +392,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/RentACorgi",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -382,6 +412,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/RentACorgi",
 				);
 				INFOPLIST_FILE = RentACorgiTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -409,6 +440,7 @@
 				212453E41B0F5D1A001B69CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		212453E51B0F5D1A001B69CA /* Build configuration list for PBXNativeTarget "RentACorgiTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +449,7 @@
 				212453E71B0F5D1A001B69CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

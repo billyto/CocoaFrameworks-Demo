@@ -1,0 +1,6 @@
+framework module RentKit {
+  umbrella header "RentKit.h"
+
+  export *
+  module * { export * }
+}
