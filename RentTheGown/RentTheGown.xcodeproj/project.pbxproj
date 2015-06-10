@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210F643A1B2886B900D5382C /* RentKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 210F64391B2886B900D5382C /* RentKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		210F64401B2886B900D5382C /* RentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210F64351B2886B900D5382C /* RentKit.framework */; };
+		210F64491B2886B900D5382C /* RentKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 210F64481B2886B900D5382C /* RentKitTests.m */; };
+		210F644C1B2886B900D5382C /* RentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210F64351B2886B900D5382C /* RentKit.framework */; };
+		210F644D1B2886B900D5382C /* RentKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 210F64351B2886B900D5382C /* RentKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		210F64521B2886E500D5382C /* RENTButtonStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 214458571B160CD8006B9237 /* RENTButtonStyle.m */; };
+		210F64531B2886EC00D5382C /* RENTButtonStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 214458561B160CD8006B9237 /* RENTButtonStyle.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		210F64541B2886F700D5382C /* RENTButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 214458591B160EEF006B9237 /* RENTButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		210F64551B28870400D5382C /* RENTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2144585A1B160EEF006B9237 /* RENTButton.m */; };
 		214458581B160CD8006B9237 /* RENTButtonStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 214458571B160CD8006B9237 /* RENTButtonStyle.m */; };
 		2144585B1B160EEF006B9237 /* RENTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2144585A1B160EEF006B9237 /* RENTButton.m */; };
 		21CF30531A915F0C00BC2181 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CF30521A915F0C00BC2181 /* main.m */; };
@@ -19,6 +28,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		210F64411B2886B900D5382C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21CF30451A915F0C00BC2181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 210F64341B2886B900D5382C;
+			remoteInfo = RentKit;
+		};
+		210F64431B2886B900D5382C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21CF30451A915F0C00BC2181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21CF304C1A915F0C00BC2181;
+			remoteInfo = RentTheGown;
+		};
+		210F644A1B2886B900D5382C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21CF30451A915F0C00BC2181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 210F64341B2886B900D5382C;
+			remoteInfo = RentKit;
+		};
 		21CF30671A915F0C00BC2181 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 21CF30451A915F0C00BC2181 /* Project object */;
@@ -35,6 +65,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				210F644D1B2886B900D5382C /* RentKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,6 +73,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		210F64351B2886B900D5382C /* RentKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RentKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		210F64381B2886B900D5382C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210F64391B2886B900D5382C /* RentKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RentKit.h; sourceTree = "<group>"; };
+		210F643F1B2886B900D5382C /* RentKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RentKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		210F64471B2886B900D5382C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210F64481B2886B900D5382C /* RentKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RentKitTests.m; sourceTree = "<group>"; };
 		214458561B160CD8006B9237 /* RENTButtonStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RENTButtonStyle.h; sourceTree = "<group>"; };
 		214458571B160CD8006B9237 /* RENTButtonStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RENTButtonStyle.m; sourceTree = "<group>"; };
 		214458591B160EEF006B9237 /* RENTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RENTButton.h; sourceTree = "<group>"; };
@@ -62,10 +99,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		210F64311B2886B900D5382C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210F643C1B2886B900D5382C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210F64401B2886B900D5382C /* RentKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		21CF304A1A915F0C00BC2181 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210F644C1B2886B900D5382C /* RentKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +132,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		210F64361B2886B900D5382C /* RentKit */ = {
+			isa = PBXGroup;
+			children = (
+				214458551B160B0A006B9237 /* Button */,
+				210F64391B2886B900D5382C /* RentKit.h */,
+				210F64371B2886B900D5382C /* Supporting Files */,
+			);
+			path = RentKit;
+			sourceTree = "<group>";
+		};
+		210F64371B2886B900D5382C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				210F64381B2886B900D5382C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		210F64451B2886B900D5382C /* RentKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				210F64481B2886B900D5382C /* RentKitTests.m */,
+				210F64461B2886B900D5382C /* Supporting Files */,
+			);
+			path = RentKitTests;
+			sourceTree = "<group>";
+		};
+		210F64461B2886B900D5382C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				210F64471B2886B900D5382C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		214458551B160B0A006B9237 /* Button */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +176,7 @@
 				2144585A1B160EEF006B9237 /* RENTButton.m */,
 			);
 			name = Button;
+			path = ../RentTheGown;
 			sourceTree = "<group>";
 		};
 		21CF30441A915F0C00BC2181 = {
@@ -95,6 +184,8 @@
 			children = (
 				21CF304F1A915F0C00BC2181 /* RentTheGown */,
 				21CF30691A915F0C00BC2181 /* RentTheGownTests */,
+				210F64361B2886B900D5382C /* RentKit */,
+				210F64451B2886B900D5382C /* RentKitTests */,
 				21CF304E1A915F0C00BC2181 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +195,8 @@
 			children = (
 				21CF304D1A915F0C00BC2181 /* RentTheGown.app */,
 				21CF30661A915F0C00BC2181 /* RentTheGownTests.xctest */,
+				210F64351B2886B900D5382C /* RentKit.framework */,
+				210F643F1B2886B900D5382C /* RentKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,7 +204,6 @@
 		21CF304F1A915F0C00BC2181 /* RentTheGown */ = {
 			isa = PBXGroup;
 			children = (
-				214458551B160B0A006B9237 /* Button */,
 				21CF30541A915F0C00BC2181 /* AppDelegate.h */,
 				21CF30551A915F0C00BC2181 /* AppDelegate.m */,
 				21CF30571A915F0C00BC2181 /* ViewController.h */,
@@ -152,7 +244,57 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		210F64321B2886B900D5382C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210F64541B2886F700D5382C /* RENTButton.h in Headers */,
+				210F643A1B2886B900D5382C /* RentKit.h in Headers */,
+				210F64531B2886EC00D5382C /* RENTButtonStyle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		210F64341B2886B900D5382C /* RentKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210F64501B2886B900D5382C /* Build configuration list for PBXNativeTarget "RentKit" */;
+			buildPhases = (
+				210F64301B2886B900D5382C /* Sources */,
+				210F64311B2886B900D5382C /* Frameworks */,
+				210F64321B2886B900D5382C /* Headers */,
+				210F64331B2886B900D5382C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RentKit;
+			productName = RentKit;
+			productReference = 210F64351B2886B900D5382C /* RentKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		210F643E1B2886B900D5382C /* RentKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210F64511B2886B900D5382C /* Build configuration list for PBXNativeTarget "RentKitTests" */;
+			buildPhases = (
+				210F643B1B2886B900D5382C /* Sources */,
+				210F643C1B2886B900D5382C /* Frameworks */,
+				210F643D1B2886B900D5382C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				210F64421B2886B900D5382C /* PBXTargetDependency */,
+				210F64441B2886B900D5382C /* PBXTargetDependency */,
+			);
+			name = RentKitTests;
+			productName = RentKitTests;
+			productReference = 210F643F1B2886B900D5382C /* RentKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		21CF304C1A915F0C00BC2181 /* RentTheGown */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21CF30701A915F0C00BC2181 /* Build configuration list for PBXNativeTarget "RentTheGown" */;
@@ -165,6 +307,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				210F644B1B2886B900D5382C /* PBXTargetDependency */,
 			);
 			name = RentTheGown;
 			productName = RentTheGown;
@@ -198,6 +341,14 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Rent The Runway";
 				TargetAttributes = {
+					210F64341B2886B900D5382C = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = D3949Y3U43;
+					};
+					210F643E1B2886B900D5382C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 21CF304C1A915F0C00BC2181;
+					};
 					21CF304C1A915F0C00BC2181 = {
 						CreatedOnToolsVersion = 6.1.1;
 						DevelopmentTeam = D3949Y3U43;
@@ -223,11 +374,27 @@
 			targets = (
 				21CF304C1A915F0C00BC2181 /* RentTheGown */,
 				21CF30651A915F0C00BC2181 /* RentTheGownTests */,
+				210F64341B2886B900D5382C /* RentKit */,
+				210F643E1B2886B900D5382C /* RentKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		210F64331B2886B900D5382C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210F643D1B2886B900D5382C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		21CF304B1A915F0C00BC2181 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,6 +415,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		210F64301B2886B900D5382C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210F64551B28870400D5382C /* RENTButton.m in Sources */,
+				210F64521B2886E500D5382C /* RENTButtonStyle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210F643B1B2886B900D5382C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210F64491B2886B900D5382C /* RentKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		21CF30491A915F0C00BC2181 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,6 +455,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		210F64421B2886B900D5382C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 210F64341B2886B900D5382C /* RentKit */;
+			targetProxy = 210F64411B2886B900D5382C /* PBXContainerItemProxy */;
+		};
+		210F64441B2886B900D5382C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21CF304C1A915F0C00BC2181 /* RentTheGown */;
+			targetProxy = 210F64431B2886B900D5382C /* PBXContainerItemProxy */;
+		};
+		210F644B1B2886B900D5382C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 210F64341B2886B900D5382C /* RentKit */;
+			targetProxy = 210F644A1B2886B900D5382C /* PBXContainerItemProxy */;
+		};
 		21CF30681A915F0C00BC2181 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 21CF304C1A915F0C00BC2181 /* RentTheGown */;
@@ -298,6 +497,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		210F644E1B2886B900D5382C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = RentKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		210F644F1B2886B900D5382C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = RentKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RentTheGown.app/RentTheGown";
+			};
+			name = Release;
+		};
 		21CF306F1A915F0C00BC2181 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -362,6 +603,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		210F64501B2886B900D5382C /* Build configuration list for PBXNativeTarget "RentKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210F644E1B2886B900D5382C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		210F64511B2886B900D5382C /* Build configuration list for PBXNativeTarget "RentKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210F644F1B2886B900D5382C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		21CF30481A915F0C00BC2181 /* Build configuration list for PBXProject "RentTheGown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
