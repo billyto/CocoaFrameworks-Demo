@@ -25,7 +25,7 @@ The two projects "Rent The Gown" and "Rent A Corgi" will share a framework "Rent
 * [Swift playgrounds](https://developer.apple.com/swift/resources/)
 
 
-### Distribbute your framework
+### Distribute your framework
 * [Carthage](https://github.com/Carthage/Carthage)
 * [Cocoapods](http://blog.cocoapods.org/CocoaPods-0.36/)
 
@@ -34,7 +34,7 @@ The two projects "Rent The Gown" and "Rent A Corgi" will share a framework "Rent
 * [About Precompiled headers](http://qualitycoding.org/precompiled-headers/)
 
 ### Tools
-* [Merge frameworks] (http://www.manpages.info/macosx/lipo.1.html)
+* [Merge frameworks with lipo tool] (http://www.manpages.info/macosx/lipo.1.html)
 
 
 
