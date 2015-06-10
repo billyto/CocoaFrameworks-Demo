@@ -20,3 +20,8 @@ The two projects would share a framework "RentKit"
 * [Typhon Framework (Dependency Injection)](http://typhoonframework.org)
 * [About Precompiled headers](http://qualitycoding.org/precompiled-headers/)
 
+### Tools
+*[Merge frameworks] (http://www.manpages.info/macosx/lipo.1.html)
+
+
+
