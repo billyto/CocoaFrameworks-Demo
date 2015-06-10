@@ -13,6 +13,12 @@ The two projects would share a framework "RentKit"
 * [raywenderlich.com] (http://www.raywenderlich.com/62570/objective-c-style-guide)
 * [GitHub] (https://github.com/github/objective-c-style-guide)
 
+### Documenting
+* [VVDocumenter *XCode Plugin*] (https://github.com/onevcat/VVDocumenter-Xcode)
+* [AppleDoc](http://gentlebytes.com/appledoc/)
+* [Jazzy](https://github.com/realm/jazzy)
+* [Swift playgrounds](https://developer.apple.com/swift/resources/)
+
 
 ### Distribbute your framework
 * [Carthage](https://github.com/Carthage/Carthage)
