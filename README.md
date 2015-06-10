@@ -3,6 +3,8 @@ Demo for Cocoa Frameworks talk.
 
 The two projects would share a framework "RentKit"
 
+## Bundles
+* [Apple Documentation](https://developer.apple.com/library/prerelease/ios/documentation/CoreFoundation/Conceptual/CFBundles/Introduction/Introduction.html#//apple_ref/doc/uid/10000123i-CH1-SW1)
 
 ### Style Guides
 
@@ -21,7 +23,7 @@ The two projects would share a framework "RentKit"
 * [About Precompiled headers](http://qualitycoding.org/precompiled-headers/)
 
 ### Tools
-*[Merge frameworks] (http://www.manpages.info/macosx/lipo.1.html)
+* [Merge frameworks] (http://www.manpages.info/macosx/lipo.1.html)
 
 
 
